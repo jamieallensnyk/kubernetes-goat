@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:26.5.0-trixie-slim
 LABEL MAINTAINER "Madhu Akula" INFO="Kubernetes Goat"
 
 WORKDIR /app
